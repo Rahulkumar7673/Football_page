@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar starts here -->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: rgb(129, 162, 12)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Rahul Kumar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Client</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><a class="dropdown-item" href="#">App Development</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">SEO</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end here -->
+
+    <!-- Slider starts here -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/image/Football1.jpg" class="d-block w-100 " height="600" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>THIS IS FOOTBALL CUP</h5>
+            <p>
+              so all play for the Football cup. all FOTBALL team look forward to ipl cup
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/image/Football2.jpg" class="d-block w-100" height="600" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>THIS football CAPTAN OF THE TEAM</h5>
+            <p>so all captain is best. than all captain thinking for a cup.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/image/Football3.jpg" class="d-block w-100 " height="600" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>THIS STATDIUM</h5>
+            <p>so this is atatdium for play football</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- slider ends here -->
+
+    <!-- Containner starts here -->
+    <div class="container-fluid">
+      <!-- Tag Line Starts here -->
+      <div class="row">
+        <div class="col-12">
+          <h3 class="display-6 text-center mt-5 mb-2">
+            The correct answer is ​Australia and New Zealand. Australia and New Zealand have been selected as co-hosts of “FIFA Women's World Cup 2023”. FIFA announced its decision after its governing council held a vote by videoconference.
+          </h3>
+        </div>
+      </div>
+      <!-- tag line Ends here -->
+
+      <!-- Feature starts here -->
+      <div class="row justify-content-evenly pt-3 pb-3">
+        <div class="col-md-3 text-center mt-5">
+          <h1><i class="bi bi-file-code-fill text-primary"></i></h1>
+          <h5>What is the minimum number of players for a game of Football?</h5>
+          <p>
+            A match is played by two teams, each with a maximum of eleven players; one must be the goalkeeper. A match may not start or continue if either team has fewer than seven players.
+          </p>
+        </div>
+
+        <div class="col-md-3 text-center mt-5">
+          <h1><i class="bi bi-easel-fill text-danger"></i></h1>
+          <h5>Football live in India</h5>
+          <p>
+            The Premier League 2023-24 football matches will be telecast live on the Star Sports Select 1, Star Sports Select 1 HD and Star Sports Select 2 TV channels in India. Live streaming of EPL 2023-24 in India will be on the Disney+ Hotstar platform in several languages.
+          </p>
+        </div>
+        <div class="col-md-3 text-center mt-5">
+          <h1><i class="bi bi-calendar-fill text-success"></i></h1>
+          <h5>The start football 2024 in India</h5>
+          <p>
+            The 2024-25 Indian football season will begin with the Durand Cup on July 26 while the Indian Super League (ISL) kicks off in September, according to the All India Football Federation (AIFF). Started in 1888, the Durand Cup is the oldest football competition in India and Asia. It's also the third-oldest in the world.
+        </div>
+      </div>
+      <!-- Feature ends here -->
+    </div>
+    <!-- Line stars here-->
+    <hr />
+    <!-- Line ends here -->
+    <!-- Containner ends here -->
+
+    <!-- team details stars here -->
+
+    <div class="row justify-content-evenly pt-3 pb-5">
+      <div class="col-md-5 pt-3">
+        <img src="/image/graph.png" class="img-fluid" />
+      </div>
+      <div class="col-md-5 pt-3">
+        <br><br>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success" style="width: 25%">25%</div>
+        </div>
+        <br>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-Secondary text-dark" style="width: 50%">50%</div>
+        </div>
+        <br>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+        </div>
+        <br>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-danger" style="width: 80%">80%</div>
+        </div>
+        <br>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info" style="width: 90%">90%</div>
+        </div>
+        <br>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-Primary" style="width: 100%">100%</div>
+        </div>
+        <br />
+      </div>
+    </div>
+    <!-- team details ends here -->
+
+    <!-- contact statr here -->
+    <div
+      class="row justify-content-evenly pt-2 pb-5"
+      style="background-color: #f1f1f1"
+    >
+      <div class="col-md-5 mt-5">
+        <h3 class="mb-4">Contact form</h3>
+
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Enter full name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              aria-describedby="emailHelp"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-5 mt-5">
+        <h3 class="mb-4">Address</h3>
+        <p>
+          Kam ,Tiyara <br />
+          Singrauli (M.P.)-486886
+          <br />
+          <i class="bi bi-telephone"></i>-:8103507673
+        </p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.531036671532!2d82.5889386751237!3d24.01233197849264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398f356adc912409%3A0x1757a92b68792edb!2sTiyara%20post%20office!5e0!3m2!1sen!2sin!4v1710750316344!5m2!1sen!2sin" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+      </div>
+    </div>
+    <!-- contact end here -->
+
+    <!-- FAQ statrs here -->
+    <div class="row justify-content-evenly pt-5 pb-5">
+      <div class="col-md-10">
+        <h3 class="text-center pb-4">FAQ</h3>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+              How many players in a football team?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                A match is played by two teams, each with a maximum of eleven players; one must be the goalkeeper. A match may not start or continue if either team has fewer than seven players.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+              What is the new format for the Champions League 2024?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                So how will the Champions League work from the 2024/25 season? The primary change is that 32 teams will no longer compete in eight groups of four during the group stages. Instead, the opening round will be an expanded 36-team stage in which the teams participate in a single league
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+              What is the FIFA ranking of India football team?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                The Indian team was placed at 102nd in the last FIFA rankings, issued on December 21, 2023. India also lost 35.63 rating points from the previous total. It now lies in between Togo (116th) and Guinea-Bissau (118th). The country is ranked 22nd among the Asian nations
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+              Which is the No 1 football league in India?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+               
+                <br />
+                The Indian football league system is the league structure of football club competitions in India. The highest level of men's club football competition is the Indian Super League.[1][2] Indian Women's League, founded in 2016, is the highest level of women's football club competition in India.[3]
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FAQ ends here -->
+
+    <!-- Footer stars here -->
+    <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+      <div class="col-md-3 pt-4">
+        <h4>When we start Football 2024 ?</h4>
+        <p>
+          The 2024-25 season of the Indian Super League (ISL), the premier football competition in India, is scheduled to commence on September 14, 2024, following the conclusion of the 2024 Durand Cup.
+        </p>
+      </div>
+      <div class="col-md-3 pt-4">
+        <h5>How can you play football for India?</h5>
+        <p>
+          If you work hard and play well in club football matches, you may be picked for the national squad and have the opportunity to represent your country as a football player.
+        </p>
+      </div>
+      <div class="col-md-3 pt-4">
+        <h5 class="pb-2">Important Links</h5>
+        <p>
+         <a href="#" class="link-light text-decoration-none">Home </a><br>
+         <a href="#" class="link-light text-decoration-none">About Us </a><br>
+         <a href="#" class="link-light text-decoration-none">Client</a><br>
+         <a href="#" class="link-light text-decoration-none">Contact Us</a><br>
+       
+
+        </p>
+      </div>
+    </div>
+    <!-- Footer ends here -->
+
+    <!-- copyright starts here -->
+    <div class="row bg-secondary text-white text-center p-2">
+      <div class="col-12">
+        <p>Copyright 2021-2025 by Rahul kumar. All right reserved</p>
+      </div>
+    </div>
+    <!-- copyright end here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
